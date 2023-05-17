@@ -1,0 +1,9 @@
+defaults:
+  - _self_
+  - dataset: euroc
+  - model: default
+  - matching: default
+  - theseus: default
+  - pose_estimation: euroc
+  - hyperparameter: default
+  - logging: default

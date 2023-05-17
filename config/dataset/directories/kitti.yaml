@@ -1,0 +1,18 @@
+dataset: "{directory of the dataset sequences e.g. .../kitti/sequences}" # directory of the dataset
+sequences:
+  train:
+    - "00"
+    - "01"                                                                          
+    - "02"
+    - "03"
+    - "04"
+    - "05"
+    - "06"
+    - "07"
+  val:
+    - "08"
+    - "09"
+    - "10"
+poses_filename: "poses.txt"
+images: "image_0"
+matches: "{directory where to store the dataset}"

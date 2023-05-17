@@ -1,0 +1,20 @@
+defaults:
+  - theseus: synthetic
+  - pose_estimation: synthetic
+logging:
+  level: "INFO"
+  to_file: False
+  tensorboard:
+    enabled: True # use tensorboard
+    log_dir: "/usr/wiss/muhled/Documents/projects/deep_uncertainty_prediction/code/runs/synthetic" # direcotry for tb-logs
+    name: "" # special name for the run
+synthetic:
+  training_frames: "Target"
+  num_problems: 128000
+  num_points: 20
+  num_epochs: 100
+  individual_poses: True
+  max_t: 2.0
+  max_r: 1.0
+  outdir: "/usr/wiss/muhled/Documents/projects/deep_uncertainty_prediction/output/synthetic"
+  name: "normal"

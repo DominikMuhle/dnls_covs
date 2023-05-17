@@ -1,0 +1,10 @@
+level: INFO
+to_file: False
+tensorboard:
+  enabled: True # use tensorboard
+  log_dir: "{tensorboard logging directory}" # direcotry for tb-logs
+  name: "" # special name for the run
+  eval_epochs: 5
+  vis_epochs: 5
+  loss_iterations: 50
+  running_average_length: 100

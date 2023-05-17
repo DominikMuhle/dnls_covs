@@ -1,0 +1,7 @@
+defaults:
+  - optimizer: levenberg_marquardt
+  
+step_size: 1.0e+0 # step size for the optimizer
+EPS: 1.0e-20 # tolerances of theseus to determine convergence
+abs_err_tolerance: 1.0e-20 # tolerances of theseus to determine covergence
+rel_err_tolerance: 1.0e-8 # tolerances of theseus to determine covergence

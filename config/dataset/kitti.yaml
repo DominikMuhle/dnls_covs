@@ -1,0 +1,8 @@
+defaults:
+  - directories: small
+  - matching: superglue
+  - sweep: supervised
+  - image_augmentations: default
+  - keypoint_augmentations: default
+
+name: "KITTI"

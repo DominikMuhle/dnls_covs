@@ -1,0 +1,9 @@
+batch_size: 8           # batch size for training loop
+learning_rate: 5.0e-4     # learning rate for the outerloop optimizer
+epochs: 100  
+error_threshold: 1.0
+
+accumulation_steps: 4
+use_amp: True
+
+loss_type: "L1"

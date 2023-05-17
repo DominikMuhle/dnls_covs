@@ -1,0 +1,8 @@
+superpoint:
+  max_keypoints: 256
+  keypoint_threshold: 0.005
+  nms_radius: 2
+superglue:
+  weights: "outdoor"
+  sinkhorn_iterations: 20
+  match_threshold: 0.5

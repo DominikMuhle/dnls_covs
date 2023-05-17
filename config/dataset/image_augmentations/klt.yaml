@@ -1,0 +1,6 @@
+defaults:
+    - default
+
+crop_size:
+    - 330
+    - 1200

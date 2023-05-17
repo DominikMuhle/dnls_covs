@@ -1,0 +1,6 @@
+level: DEBUG
+to_file: True
+tensorboard:
+  enabled: False
+  log_dir: "{tensorboard logging directory}" # direcotry for tb-logs
+  name: "debug"

@@ -1,0 +1,22 @@
+defaults:
+  - _self_
+  - model: default
+  - dataset: kitti
+  - hyperparameter: default
+  - matching: default
+  - theseus: default
+  - pose_estimation: kitti
+
+
+output_dir: "..."
+methods:
+  # - "STEWENIUS"
+  - "NISTER"
+  # - "EIGHTPT"
+  - "NEC"
+  - "NEC_LS"
+  - "WEIGHTED_NEC"
+  # - "UNIFORM"
+  # - "KLT_PNEC"
+  - "DEEP_PNEC"
+  - "REPROJECTION"

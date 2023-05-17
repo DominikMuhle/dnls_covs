@@ -1,0 +1,10 @@
+filter1:
+  name: "lukas"         # sigmoid, relu, exp, lukas, no
+  args:
+filter2:
+  name: "no"
+  args: null
+filter3:
+  name: "lukas"
+  args:
+representation: "entries"  # entries, inv_entries, sab

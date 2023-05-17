@@ -1,0 +1,8 @@
+superpoint:
+  max_keypoints: 1024
+  keypoint_threshold: 0.0005
+  nms_radius: 3
+superglue:
+  weights: "indoor"
+  sinkhorn_iterations: 20
+  match_threshold: 0.01

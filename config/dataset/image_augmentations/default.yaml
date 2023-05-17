@@ -1,0 +1,20 @@
+crop_size:
+  - 300
+  - 1200
+random_crop: True
+color_jitter: False
+brightness:
+  - 0.8
+  - 1.2
+contrast:
+  - 0.8
+  - 1.2
+saturation:
+  - 0.8
+  - 1.2
+hue:
+  - -0.1
+  - 0.1
+noise: False
+noise_var: 0.0064
+flipping: True

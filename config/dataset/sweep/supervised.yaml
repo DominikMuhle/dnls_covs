@@ -1,0 +1,6 @@
+self_supervised: False
+tuple_length: 2
+step_size: 1
+skip: 0                 
+tuple_per_base_img: 1            
+max_idx: null                   

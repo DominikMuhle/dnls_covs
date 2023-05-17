@@ -1,0 +1,12 @@
+dataset: ""{directory of the dataset seuquences e.g. .../euroc/}""
+sequences: 
+  train:                         
+    - "V2_03_difficult"
+    - "V1_01_easy"
+    - "V1_02_medium"
+    - "V1_03_difficult"
+    - "V2_01_easy"
+    - "V2_02_medium"
+poses_filename: "poses.txt"
+images: "images"                                                         
+matches: "{directory where to store the dataset}"   

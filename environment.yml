@@ -1,0 +1,22 @@
+name: dnls_covs
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python
+  - pytorch=1.13.1
+  - torchvision==0.14.1
+  - pytorch-cuda=11.6
+  - pip
+  - pip:
+      - matplotlib
+      - omegaconf
+      - opencv-python
+      - pytorch-ignite
+      - pyyaml
+      - scikit-image
+      - scipy
+      - tensorflow # for tensorboard (but it seems to be much faster with tensorflow)
+      - hydra-core
+      - theseus-ai

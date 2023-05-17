@@ -1,0 +1,9 @@
+name: LevenbergMarquardt
+kwargs:
+  backward_mode: "IMPLICIT"
+  max_iterations: 50
+  damping: 1.0e+3
+  adaptive_damping: True
+  verbose: False
+  track_err_history: True
+  track_state_history: True

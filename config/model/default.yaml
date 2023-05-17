@@ -1,0 +1,13 @@
+defaults:
+  - output: sab
+
+path: "{path where to store the models}"
+
+base_model: UNetM   # SuperCov, UNet, UNetSmall, UNetXS
+date: null
+checkpoint: null
+
+resume_training: False
+override_filters: False
+klt_scaling: 0.1
+isotropic_covariances: False

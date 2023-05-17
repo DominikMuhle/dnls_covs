@@ -1,0 +1,2 @@
+keypoint_jitter: False
+jitter_std: 0.0

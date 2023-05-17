@@ -1,0 +1,7 @@
+
+regularization: 1.0e-13 # 1.0e+5 # regularization for the PNEC energy function (add link)
+scaling: 1.0 #1.0e+20 # scale the cost function up or down to avoid running into float limits
+nec:
+  ransac: True
+  inlier_threshold: 1.0e-6
+  opt_t: True
