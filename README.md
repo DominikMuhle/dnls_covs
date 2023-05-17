@@ -1,43 +1,15 @@
-<center>
-<h1 style="display: block;">Learning Correspondence Uncertainty<br>via Differentiable Nonlinear Least Squares</h1>
-CVPR 2023 <br>
-<table style="border: none; display: initial;">
-<tr style="border: none;">
-<td style="border: none;"><a href="https://vision.in.tum.de/members/muhled">Dominik Muhle</a><sup>1,2</sup></td>
-<td style="border: none;"><a href="https://lukaskoestler.com">Lukas Koestler</a><sup>1,2</sup></td>
-<td style="border: none;"><a href="https://krrish94.github.io">Krishna Jatavallabhula</a><sup>4</sup></td>
-<td style="border: none;"><a href="https://vision.in.tum.de/members/cremers">Daniel Cremers</a><sup>1,2,3</sup></td>
-</tr>
-</table>
-<br>
-<table style="border: none; display: initial;">
-<tr style="border: none;">
-<td style="border: none;"><sup>1</sup>TU Munich</td>
-<td style="border: none;"><sup>2</sup>Munich Center for Machine Learning</td>
-<td style="border: none;"><sup>3</sup>University of Oxford</td>
-<td style="border: none;"><sup>4</sup>MIT</td>
-</tr>
-</table>
-<br>
-<table style="border: none; display: initial;">
-<tr style="border: none;">
-<td style="border: none;">
-<a href="#" style="color: #000000">
-<div class="link_button">
-<i class="bi bi-file-earmark-richtext"></i> <a href="https://arxiv.org/abs/2305.09527">Paper
-</div>
-</td>
-<td style="border: none;">
-<a href="#" style="color: #000000">
-<div class="link_button">
-<i class="bi bi-youtube"></i> Video (Soon)
-</div>
-</a>
-</td>
-</tr>
-</table>
-<br>
-</center>
+# Learning Correspondence Uncertainty via Differentiable Nonlinear Least Squares
+
+[**Paper**](https://arxiv.org/abs/2305.09527) |  [**Video** (Soon)](#) | [**Project Page**](https://dominikmuhle.github.io/dnls_covs/)
+
+This is the official implementation for the CVPR 2023 paper:
+
+> **Learning Correspondence Uncertainty via Differentiable Nonlinear Least Squares**
+>
+> [Dominik Muhle](https://vision.in.tum.de/members/muhled)<sup>1,2</sup>, [Lukas Koestler](https://lukaskoestler.com)<sup>1,2</sup>, [Krishna Jatavallabhula](https://krrish94.github.io)<sup>4</sup> and [Daniel Cremers](https://vision.in.tum.de/members/cremers)<sup>1,2,3</sup><br>
+> <sup>1</sup>Technical University of Munich, <sup>2</sup>Munich Center for Machine Learning, <sup>3</sup>University of Oxford, <sup>4</sup>MIT
+> 
+> [**CVPR 2023** (arXiv)](https://arxiv.org/abs/2305.09527)
 
 # Abstract
 
