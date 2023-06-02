@@ -47,8 +47,6 @@ For configuration, we use [Hydra](https://hydra.cc) with configurations split up
 ### 🪢 Pybind 
 We use both pybind of [opengv](https://laurentkneip.github.io/opengv/index.html) and the [PNEC](https://github.com/tum-vision/pnec). Please follow the instruction on how to generate the pybind modules there. Place the pybind files into ```./scripts/```.
 
-## ! As the pybind module of the PNEC is not public yet, you need to disable the import of the pypnec in the evaluation and switch the optimization framework to theseus. For the training, only the creation of the KLT-Tracks is affected. We are working on releasing the PNEC update in the next few weeks.
-
 ### 💾 Datasets
 For our training we used the [KITTI visual odometry](https://www.cvlibs.net/datasets/kitti/eval_odometry.php) dataset and the [EuRoC](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets) dataset. We prepocessed the EuRoC dataset to be in the [tandem format](https://github.com/tum-vision/tandem). If you want to use any other dataset, you need add a corresponding Hydra config file.
 
